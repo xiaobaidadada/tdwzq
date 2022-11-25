@@ -1,0 +1,24 @@
+#qipan {
+    /*棋盘的大小格式*/
+    width: 500px;
+    height: 500px;
+    background: url(imgs/board.jpg);
+    background-size: cover;
+    margin-left: 30%;
+    padding-left: 4px;
+    padding-top: 4px;
+}
+
+.qizi {
+    /*棋子的大小格式*/
+    width: 30.5px;
+    height: 30.5px;
+    margin: 1.2px;
+    display: inline-block;
+    border-radius: 50%;
+    /*初始状态下不显示*/
+}
+
+.qizi:hover {
+    cursor: pointer;
+}
